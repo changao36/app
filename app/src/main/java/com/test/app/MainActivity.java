@@ -15,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
         init();
     }
     public void init(){
-        TextView textView = findViewById(R.id.text);
-        textView.setText("你好");
+        /*TextView textView = findViewById(R.id.text);
+        textView.setText("你好");*/
         Log.i("MainActivity","hello world ChangAo");
     }
 }
