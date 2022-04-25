@@ -3,6 +3,7 @@ package com.test.app;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -16,5 +17,6 @@ public class MainActivity extends AppCompatActivity {
     public void init(){
         TextView textView = findViewById(R.id.text);
         textView.setText("你好");
+        Log.i("MainActivity","hello world ChangAo");
     }
 }
